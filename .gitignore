@@ -1,0 +1,11 @@
+.build/
+fastlane/Preview.html
+fastlane/report.xml
+fastlane/screenshots/**/*.png
+fastlane/test_output
+xcuserdata/
+codesigndoc_exports
+HTWMediathek/Configuration/DebugSecrets.xcconfig
+HTWMediathek/Configuration/ReleaseSecrets.xcconfig
+.swiftpm/
+**/.DS_Store
