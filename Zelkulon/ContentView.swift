@@ -27,7 +27,7 @@ struct ContentView: View {
             Spacer()
             VStack{
             
-                Button(action: {testword = randomElement()}, label: {Text("\(testword)")})
+                Button(action: {testword = randomElement()}, label: {Text("\(testword)")}).font(.largeTitle)
                 
                 
                 
