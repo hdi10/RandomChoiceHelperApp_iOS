@@ -14,6 +14,8 @@ struct ContentView: View {
     @State private var showingOptions_RandomInt = false
     @State private var machineGeneratedNumber = "helloword"
     @State private var testword = "heLLoWoRld"
+   
+    
     
     var body: some View {
     
@@ -25,7 +27,15 @@ struct ContentView: View {
             Spacer()
             VStack{
             
-                Text("Randomnumber").
+                Button(action: {testword = randomElement()}, label: {Text("\(testword)")})
+                
+                
+                
+                
+                Spacer()
+                
+                
+                
                 Spacer()
                 Text("Randomword")
                 Spacer()
@@ -86,6 +96,8 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+        }
     }
 }
