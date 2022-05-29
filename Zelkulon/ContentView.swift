@@ -27,13 +27,14 @@ struct ContentView: View {
             Spacer()
             VStack{
             
-                Button(action: {testword = randomElement()}, label: {Text("\(testword)")}).font(.largeTitle)
+                Button(action: {testword = randomElement()}, label: {Text("RandomNumber")}).padding(.top,30).font(.headline)
                 
                 
                 
                 
                 Spacer()
                 
+                Text("\(testword)").font(.largeTitle)
                 
                 
                 Spacer()
